@@ -1,0 +1,66 @@
+#background {
+    height: 100vh;
+    width: auto;
+    background: #fff;
+    background-image: -webkit-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5)), url('../style/bg-01.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    #wrap-login {
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        form {
+            border-radius: 15px;
+            background-color: white;
+            height: auto;
+            h1 {
+                color: rgba(185, 0, 255, 0.5);
+            }
+            span {
+                padding: 5px;
+                border-radius: 100%;
+                background-color: white;
+                i {
+                    border-radius: 100%;
+                    padding: 5px;
+                    color: rgb(209, 19, 19);
+                    font-size: 25px;
+                }
+            }
+            input {
+                border: none;
+                border-radius: 10px;
+            }
+            input:focus {
+                outline: none;
+                box-shadow: 0px 0px 12px rgba(185, 0, 255, 0.5) !important;
+            }
+            button {
+                background-color: rgba(185, 0, 255, 0.5);
+                font-weight: bold;
+                color: white;
+                border-radius: 20px;
+                box-shadow: 0px 0px 12px rgba(185, 0, 255, 0.5) !important;
+                &:hover {
+                    border: 1px solid rgba(185, 0, 255, 0.5) !important;
+                    background-color: white;
+                    color: rgba(185, 0, 255, 0.5);
+                }
+            }
+            .login-with {
+                color: gray;
+                font-weight: bold;
+                margin-top: 10%;
+            }
+            .sign-up {
+                text-align: center !important;
+                bottom: 20px;
+                left: 43%;
+                a {
+                    color: rgba(185, 0, 255, 0.5);
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
